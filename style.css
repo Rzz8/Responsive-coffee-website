@@ -58,3 +58,32 @@ section{
     box-shadow: var(--box-shadow);
     z-index: 1000;
 }
+
+.header .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5rem 2rem;
+}
+
+.header .flex .logo img{
+    height: 4.5rem;
+}
+
+.header .flex .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.header .flex .navbar a:hover {
+    text-decoration: underline;
+    color: var(--main-color); 
+}
+
+#menu-btn {
+    display: none;
+    font-size: 2.5rem;
+    color: var(--black);
+}
