@@ -52,17 +52,17 @@ section {
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    background-color: var(--main-color);
-    cursor: pointer;
-    color: var(--white);
-    font-size: 1.8rem;
-    padding: 1rem 3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: var(--main-color);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
 }
 
-.btn:hover{
-    background-color: var(--black);
+.btn:hover {
+  background-color: var(--black);
 }
 
 .header {
@@ -111,61 +111,68 @@ section {
   background-position: center;
 }
 
-.home-bg .home{
-    min-height: 70rem;
-    display: flex;
-    align-items: center;
+.home-bg .home {
+  min-height: 70rem;
+  display: flex;
+  align-items: center;
 }
 
 .home-bg .home .content {
-    width: 50rem;
-    text-align: center;
+  width: 50rem;
+  text-align: center;
 }
 
-.home-bg .home .content h3{
-    font-size: 6rem;
-    color: var(--black);
-    font-family: 'Merienda One', cursive;
+.home-bg .home .content h3 {
+  font-size: 6rem;
+  color: var(--black);
+  font-family: "Merienda One", cursive;
 }
 
-.home-bg .home .content p{
-    padding: 1rem 0;
-    font-size: 1.5rem;
-    color: var(--black);
-    line-height: 2;
+.home-bg .home .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  color: var(--black);
+  line-height: 2;
 }
 
-.about{
+.about {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap:4rem;
-} 
+  gap: 4rem;
+}
 
-.about .image{
+.about .image {
   flex: 1 1 40rem;
 }
 
-.about .image img{
+.about .image img {
   width: 100%;
 }
 
-.about .content{
+.about .content {
   flex: 1 1 40rem;
 }
 
-.about .content h3{
+.about .content h3 {
   font-size: 4.5rem;
   color: var(--black);
-  font-family: 'Merienda One', cursive;
+  font-family: "Merienda One", cursive;
 }
 
-.about .content p{
+.about .content p {
   padding: 1rem 0;
   line-height: 3rem;
   color: var(--light-color);
   font-size: 1.5rem;
 }
+
+.facility .box-containers {
+  display: grid;
+}
+
+
+
 
 /* media queries */
 @media (max-width: 991px) {
@@ -205,19 +212,19 @@ section {
     margin: 2rem;
   }
 
-  .home-bg{
+  .home-bg {
     background-position: left;
   }
 
-  .home-bg .home{
+  .home-bg .home {
     justify-content: center;
   }
 
-  .home-bg .home .content h3{
+  .home-bg .home .content h3 {
     font-size: 4rem;
   }
 
-  .about .content h3{
+  .about .content h3 {
     font-size: 3rem;
   }
 }
