@@ -51,6 +51,22 @@ section {
   margin: 0 auto;
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading img{
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.heading h3{
+  font-size: 4rem;
+  color: var(--black);
+  font-family: "Merienda One", cursive;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -169,8 +185,66 @@ section {
 
 .facility .box-containers {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
 }
 
+.facility .box-containers .box {
+  text-align: center;
+}
+
+.facility .box-containers .box img {
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+.facility .box-containers .box h3{
+  font-size: 2rem;
+  color: var(--black);
+  margin: 1rem 0;
+}
+
+.facility .box-containers .box p{
+  line-height: 2;
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.menu .box-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menu .box-containers .box {
+text-align: center;
+}
+
+.menu .box-containers .box img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.menu .box-containers .box h3{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.gallery .box-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 33rem);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.gallery .box-containers img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 
 
@@ -232,5 +306,9 @@ section {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .heading h3{
+    font-size: 3rem;
   }
 }
